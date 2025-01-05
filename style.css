@@ -1,10 +1,13 @@
 body {
-    background-color: #333333; /* Dark grey background */
+    background-color: #1f1f1f; /* Dark grey background */
     color: white; /* Sets text color to white for contrast */
 }
+header {
+    text-align: center; /* Centers the header text horizontally */
+}
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid; /* Creates the grid of images */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
     gap: 10px;
 }
 img {
