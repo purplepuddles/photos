@@ -1,6 +1,6 @@
 body {
     background-color: #333333; /* Dark grey background */
-    color: white; /* Optional: Sets text color to white for contrast */
+    color: white; /* Sets text color to white for contrast */
 }
 .gallery {
     display: grid;
